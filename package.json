@@ -1,0 +1,45 @@
+{
+  "name": "giphy-music-video-api",
+  "version": "1.0.0",
+  "description": "the best website since zombo.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'lol, look ma, no testicles'",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlotteisabella/giphy-music-video-api.git"
+  },
+  "keywords": [
+    "droo's",
+    "mum",
+    "express",
+    "node"
+  ],
+  "author": "charlotte <charlotteimccarthy@gmail.com> (not droo)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charlotteisabella/giphy-music-video-api/issues"
+  },
+  "homepage": "https://github.com/charlotteisabella/giphy-music-video-api#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "eslint": "^4.2.0",
+    "eslint-config-shortlyster": "^2.2.0",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.2",
+    "mocha": "^3.4.2",
+    "nock": "^9.0.14"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.3"
+  }
+}
